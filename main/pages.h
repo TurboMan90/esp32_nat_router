@@ -64,16 +64,17 @@ color: #fff;\
 </style>\
 <body>\
 <div id='config'>\
-<h1>ESP32 NAT Router Config</h1>\
+<h1>CAUTION! DO NOT EDIT SETTINGS WITHOUT FIRST CONTACTING INFO@BOOSTEDLIGHTINGSOLUTIONS.COM!</h1>\
+<h1>Boosted Lighting Solutions Network Config</h1>\
 <script>\
 if (window.location.search.substr(1) != '')\
 {\
 document.getElementById('config').display = 'none';\
-document.body.innerHTML ='<h1>ESP32 NAT Router Config</h1>The new settings have been sent to the device.<br/>The page will refresh soon automatically...';\
+document.body.innerHTML ='<h1>Boosted Lighting Solutions Network Config</h1>The new settings have been sent to the device.<br/>The page will refresh soon automatically...';\
 setTimeout(\"location.href = '/'\",10000);\
 }\
 </script>\
-<h2>AP Settings (the new network)</h2>\
+<h2>Network SSID and Password</h2>\
 <form action='' method='GET'>\
 <table>\
 <tr>\
@@ -94,12 +95,12 @@ setTimeout(\"location.href = '/'\",10000);\
 </small>\
 </form>\
 \
-<h2>STA Settings (uplink WiFi network)</h2>\
-<form action='' method='GET'>\
+<!-- <h2>STA Settings (uplink WiFi network)</h2> -->\
+<!-- <form action='' method='GET'> -->\
 <table>\
 <tr>\
-<td>SSID</td>\
-<td><input type='text' name='ssid' value='%s' placeholder='SSID of existing network'/></td>\
+<!-- <td>SSID</td> -->\
+<!--<td><input type='text' name='ssid' value='%s' placeholder='SSID of existing network'/></td>\
 </tr>\
 <tr>\
 <td>Password</td>\
@@ -148,7 +149,7 @@ setTimeout(\"location.href = '/'\",10000);\
 <small>\
 <i>Leave it in blank if you want your ESP32 to get an IP using DHCP</i>\
 </small>\
-</form>\
+</form> -->\
 \
 <h2>Device Management</h2>\
 <form action='' method='GET'>\
@@ -230,12 +231,12 @@ color: #fff;\
 </style>\
 <body>\
 <div id='config'>\
-<h1>ESP32 NAT Router Config</h1>\
+<h1>router Boosted Lighting Solutions Network Config</h1>\
 <script>\
 if (window.location.search.substr(1) != '')\
 {\
 document.getElementById('config').display = 'none';\
-document.body.innerHTML ='<h1>ESP32 NAT Router Config</h1>The new settings have been sent to the device.<br/>The page will refresh soon automatically...';\
+document.body.innerHTML ='<h1>router Boosted Lighting Solutions Network Config</h1>The new settings have been sent to the device.<br/>Please reconnect to the WiFi network.';\
 setTimeout(\"location.href = '/'\",1000);\
 }\
 </script>\

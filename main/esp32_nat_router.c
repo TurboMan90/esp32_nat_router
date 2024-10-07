@@ -532,9 +532,9 @@ char* static_ip = NULL;
 char* subnet_mask = NULL;
 char* gateway_addr = NULL;
 uint8_t* ap_mac = NULL;
-char* ap_ssid = NULL;
-char* ap_passwd = NULL;
-char* ap_ip = NULL;
+char* ap_ssid = "Boosted Lighting 00";
+char* ap_passwd = "boosted24";
+char* ap_ip = "192.168.4.200";
 
 char* param_set_default(const char* def_val) {
     char * retval = malloc(strlen(def_val)+1);
